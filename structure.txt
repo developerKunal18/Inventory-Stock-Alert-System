@@ -1,0 +1,27 @@
+Features
+- Add and search products
+- Update product details
+- Record stock purchases and sales
+- Prevent sales that exceed available stock
+- Set minimum stock levels
+- Display low-stock alerts
+- View stock movement history
+- Calculate total inventory value
+- Generate inventory reports
+- Save records locally
+2. Project structure
+Create a folder named InventoryStockAlertSystem.
+InventoryStockAlertSystem/
+├── main.py
+├── config.py
+├── storage.py
+├── utils.py
+├── product_manager.py
+├── stock_manager.py
+├── report_manager.py
+├── requirements.txt
+├── .gitignore
+├── README.md
+└── data/
+    ├── products.json
+    └── transactions.json
